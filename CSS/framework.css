@@ -1,3 +1,41 @@
+:root {
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+}
+
+/* Start Box */
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+/* End Box */
+
+/* ===================== */
+
+/* Start Padding + Margin */
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
 .p-20 {
     padding: 20px;
 }
@@ -6,17 +44,79 @@
     padding-top: 20px;
 }
 
+.pr-20 {
+    padding-right: 20px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
 .m-20 {
     margin: 20px;
 }
 
-.bg-eee {
-    background-color: #eee;
+.mt-0 {
+    margin-top: 0;
 }
+
+/* End Padding + Margin */
+
+/* ===================== */
+
+/* Start Width */
+
+.w-full {
+    width: 100%;
+}
+
+/* End Width */
+
+/* ===================== */
+
+/* Start Color */
 
 .bg-white {
     background-color: white;
 }
+
+.c-black {
+    color: black;
+}
+
+/* End Color */
+
+/* ===================== */
+
+/* Start Position */
+
+.p-relative {
+    position: relative;
+}
+
+/* End Position */
+
+/* ===================== */
+
+/* Start Font */
+
+.txt-c {
+    text-align: center;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+/* End Font */
+
+/* ===================== */
+
+/* Start Border */
 
 .rad-6 {
     border-radius: 6px;
@@ -26,10 +126,39 @@
     -o-border-radius: 6px;
 }
 
-.rad-half {
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+.rad-10 {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
+
+/* End Border */
+
+/* ===================== */
+
+
+/* Start Component */
+
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* End Component */
+
+/* ===================== */
+
+/* Start Auxiliary */
+
+@media (max-width: 767px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+
+/* End Auxiliary */
+
+/* ===================== */
